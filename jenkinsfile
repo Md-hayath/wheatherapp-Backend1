@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Git settings
         GIT_CREDENTIALS_ID = 'Git'
-        GIT_REPO_URL = 'git@github.com:AaradhyaBodade1/WeatherappBackend1.git'
+        GIT_REPO_URL = 'git@github.com/Md-hayath/wheatherapp-Backend1.git'
         GIT_BRANCH = 'main'
 
         // AWS + EKS
@@ -24,7 +24,7 @@ pipeline {
         ns = 'backend-services'
 
         // Email
-        EMAIL_RECIPIENTS = 'aaradhyabodade255@gmail.com'
+        EMAIL_RECIPIENTS = 'hayath4863@gmail.com'
     }
 
     stages {
